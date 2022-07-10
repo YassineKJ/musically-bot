@@ -1,5 +1,6 @@
 git+https://github.com/Rapptz/discord.py
 PyNacl
-urllib
+urllib.request
+urllib.parse
 youtube_dl
 re
