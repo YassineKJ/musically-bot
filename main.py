@@ -84,14 +84,14 @@ class music(commands.Cog):
       pass
 
 
-#def setup(client):
-  #client.add_cog(music(client))
+async def setup(client):
+  await client.add_cog(music(client))
 
 #cogs = [music]
 #for i in range(len(cogs)):
   #cogs[i].setup(client)
 
 
-client.add_cog(music(client))
+#client.add_cog(music(client))
 
 client.run("OTkyNDkxNDkxMTY1NDg3MTY0.GiJESI._rK-JpOSW4uCQM-7tM9u2c5-v7e-_wmtsdFo7c")
