@@ -82,20 +82,12 @@ class music(commands.Cog):
       pass
 
 
-async def setup(client):
-  await client.add_cog(music(client))
+#async def setup(client):
+  #await client.add_cog(music(client))
 
 #cogs = [music]
 #for i in range(len(cogs)):
   #cogs[i].setup(client)
 client = commands.Bot(command_prefix='?', intents=discord.Intents.all())
-#client.add_cog(music(client))
-async def main():
-  async with client:
-    await setup(client)
-    await client.start("OTkyNDkxNDkxMTY1NDg3MTY0.GiJESI._rK-JpOSW4uCQM-7tM9u2c5-v7e-_wmtsdFo7c")
-
-
-asyncio.run(main())
-
-#client.run("OTkyNDkxNDkxMTY1NDg3MTY0.GiJESI._rK-JpOSW4uCQM-7tM9u2c5-v7e-_wmtsdFo7c")
+client.add_cog(music(client))
+client.run("OTkyNDkxNDkxMTY1NDg3MTY0.GiJESI._rK-JpOSW4uCQM-7tM9u2c5-v7e-_wmtsdFo7c")
