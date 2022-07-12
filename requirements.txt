@@ -1,4 +1,4 @@
 git+https://github.com/Rapptz/discord.py
+git+https://github.com/YassineKJ/musically-bot/music.py
 PyNacl
 youtube_dl
-music
