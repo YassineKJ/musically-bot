@@ -6,8 +6,6 @@ import urllib.request
 import urllib.parse
 import re
 
-client = commands.Bot(command_prefix='?', intents=discord.Intents.all())
-
 
 class music(commands.Cog):
   wait_list = []
@@ -90,8 +88,8 @@ async def setup(client):
 #cogs = [music]
 #for i in range(len(cogs)):
   #cogs[i].setup(client)
-
-
+client = commands.Bot(command_prefix='?', intents=discord.Intents.all())
+setup(client)
 #client.add_cog(music(client))
 
 client.run("OTkyNDkxNDkxMTY1NDg3MTY0.GiJESI._rK-JpOSW4uCQM-7tM9u2c5-v7e-_wmtsdFo7c")
