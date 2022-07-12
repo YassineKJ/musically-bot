@@ -5,7 +5,7 @@ import youtube_dl
 import urllib.request
 import urllib.parse
 import re
-
+import asyncio
 
 class music(commands.Cog):
   wait_list = []
