@@ -31,6 +31,8 @@ Make sure the requirements.txt containts the following dependencies:
 ```bash
    discord.py
    youtube_dl
+   PyNacl
+   FFMPEG
 ```
 3. **Configure the bot**
 
@@ -70,6 +72,7 @@ Once the bot is added to your Discord server, you can use the following commands
    **•youtube_dl** for retrieving audio streams from YouTube.
  
    **•FFmpeg** for streaming audio to Discord.
+   **•PyNacl** for voice encryption and compatibility with discord.py
  
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
